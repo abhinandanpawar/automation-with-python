@@ -67,6 +67,16 @@ driver.save_screenshot("home.png")
 ann()
 event()
 job()
+
+image = Image.open("Jobs.png")
+image.show()
+
+image = Image.open("home.png")
+image.show()
+
+image = Image.open("Events.png")
+image.show()
+
 time.sleep(5)
 driver.quit()
 
